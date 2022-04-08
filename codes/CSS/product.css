@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#new-arrivals-header {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+a h1 {
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 0 8px 17px;
+}
+
+.product-container {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.product {
+	flex: 0 1 auto;
+	margin: 10px;
+	padding: 8px 8px;
+	width: 400px;
+	min-height: 100px;
+}
+
+.product a {
+	text-decoration: none;
+    text-decoration-style: none;
+	color: black;
+}
+
+.product-img {
+	position: relative;
+	width: fit-content;
+	padding: 0;
+	vertical-align: bottom;
+}
+
+.product-item-img {
+	border: 2px solid black;
+}
+
+.product-img-text {
+	display: inline-block;
+	position: absolute;
+	background-color: rgb(70, 117, 26);
+	color: white;
+	padding: 5px 10px;
+	margin-left: 280px;
+	margin-right: 2px;
+	margin-top: 15px;
+	top: 0;
+	left: 0;
+	font-size: smaller;
+}
+
+.product-desc {
+	font-family: 'Poppins', sans-serif;
+	padding: 10px;
+	height: 230px;
+}
+
+.product-desc p {
+	margin-top: 5px;	
+	padding: 5px 0;
+	font-size: smaller;
+	color: #808080;
+}
+
+.star-rating {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.fa-star {
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.checked {
+	color: orange;
+}
+
+.product-btn-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product-btn {
+	background-color: black;
+	color: cyan;
+	border: 2px solid cyan;
+	padding: 8px 30px;
+	margin: 30px auto;
+	border-radius: 30px;
+}
+
+.product-btn:hover {
+	background-color: gray;
+	color: cyan;
+	border: 2px solid cyan;
+	padding: 8px 30px;
+	margin: 30px auto;
+	border-radius: 30px;
+}
